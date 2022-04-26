@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: wavethresh_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/wavethresh_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/wavethresh/wavethresh_{{ version }}.tar.gz
