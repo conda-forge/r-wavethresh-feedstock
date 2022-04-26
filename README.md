@@ -3,7 +3,7 @@ About r-wavethresh
 
 Home: https://CRAN.R-project.org/package=wavethresh
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-wavethresh-feedstock/blob/main/LICENSE.txt)
 
