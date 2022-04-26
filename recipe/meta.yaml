@@ -13,22 +13,22 @@ source:
   sha256: 0a718797c01e36a876ab0ec513b137a5a182943f12062c99b742f36513acf20f
 
 build:
-  merge_build_host: true  # [win]
+  merge_build_host: True  # [win]
   number: 0
-  skip: true  # [win32]
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
-    - {{ compiler('c') }}        # [not win]
+    - {{ compiler('c') }}              # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-mass
@@ -44,11 +44,12 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=wavethresh
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Performs 1, 2 and 3D real and complex-valued wavelet transforms, nondecimated transforms, wavelet packet transforms, nondecimated wavelet packet transforms, multiple wavelet transforms, complex-valued wavelet transforms, wavelet shrinkage for various kinds of data, locally stationary wavelet time series, nonstationary
     multiscale transfer function modeling, density estimation.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
