@@ -1,4 +1,4 @@
-{% set version = "4.7.0" %}
+{% set version = "4.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/wavethresh_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/wavethresh/wavethresh_{{ version }}.tar.gz
-  sha256: f50725565d6a956d3ce5c948305ba5b2d55d3fbf2f8a6e4647d2656e2aaaf52c
+  sha256: 330cf1ea755f27de938e5e4012f08e5923680bab6e0800cb0cdc91cea895009d
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
