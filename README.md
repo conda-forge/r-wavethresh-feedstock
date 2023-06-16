@@ -1,11 +1,22 @@
+About r-wavethresh-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-wavethresh-feedstock/blob/main/LICENSE.txt)
+
 About r-wavethresh
-==================
+------------------
 
 Home: https://CRAN.R-project.org/package=wavethresh
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-wavethresh-feedstock/blob/main/LICENSE.txt)
+Summary: Performs 1, 2 and 3D real and complex-valued wavelet transforms, nondecimated transforms, wavelet packet transforms, nondecimated wavelet packet transforms, multiple wavelet transforms, complex-valued wavelet transforms, wavelet shrinkage for various kinds of data, locally stationary wavelet time series, nonstationary multiscale transfer function modeling, density estimation.
+About r-wavethresh
+------------------
+
+Home: https://CRAN.R-project.org/package=wavethresh
+
+Package license: GPL-2.0-or-later
 
 Summary: Performs 1, 2 and 3D real and complex-valued wavelet transforms, nondecimated transforms, wavelet packet transforms, nondecimated wavelet packet transforms, multiple wavelet transforms, complex-valued wavelet transforms, wavelet shrinkage for various kinds of data, locally stationary wavelet time series, nonstationary multiscale transfer function modeling, density estimation.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1789&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-wavethresh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1789&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1789&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-wavethresh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-wavethresh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1789&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-wavethresh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1789&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-wavethresh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
