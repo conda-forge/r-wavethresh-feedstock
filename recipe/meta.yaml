@@ -1,4 +1,4 @@
-{% set version = "4.7.2" %}
+{% set version = "4.7.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/wavethresh_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/wavethresh/wavethresh_{{ version }}.tar.gz
-  sha256: 9a9774ca23496df4ecaa2bf9bff345a2ae40ded07f6afd81dd8847d48b43b656
+  sha256: c2726ad155cb4dae842b0aeccf3ee2e53306cd4f99a79f6c18450cbb92d7758c
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
